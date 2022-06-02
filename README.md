@@ -3,7 +3,7 @@ Sends a backup of joplin database via email (delivered to same email).
 
 ## Gmail
 It's proven to work with gmail accounts.
-If 2-factor auth is activated, follow this (link)[https://www.interviewqs.com/blog/py-email]
+If 2-factor auth is activated, follow this [link](https://www.interviewqs.com/blog/py-email).
 
 ## How to run
 
