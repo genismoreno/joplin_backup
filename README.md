@@ -8,7 +8,7 @@ If 2-factor auth is activated, follow this (link)[https://www.interviewqs.com/bl
 ## How to run
 
 From the project root:
-`EMAIL=<email_address> PASSWORD=<email_password> DATABASE_FP=<joplin_database_abs_file_path> python3 backup.py`
+`EMAIL=<email_address> PASSWORD=<email_password> DATABASE_FP=<joplin_database_abs_file_path> python3 main.py`
 
 The standard Joplin database file in Ubuntu is placed under the user sub-directory: `.config/joplin-desktop/database.sqlite`.
 
@@ -23,7 +23,7 @@ DATABASE_FP=/home/user/.config/joplin-desktop/database.sqlite
 ```
 
 ### Run from bash
-Create a backup.sh file as follows:
+Create a `run_backup.sh` file as follows:
 ```
 #!/usr/bin/env bash
 
@@ -31,7 +31,7 @@ set -a
 source .env
 set +a
 
-python3 backup.py
+python3 main.py
 ```
 
-Run: `bash backup.sh`
+Run: `bash run_backup.sh`
