@@ -10,8 +10,7 @@ If 2-factor auth is activated, follow this [link](https://www.interviewqs.com/bl
 From the project root:
 `EMAIL=<email_address> PASSWORD=<email_password> DATABASE_FP=<joplin_database_abs_file_path> python3 main.py`
 
-The standard Joplin database file in Ubuntu is placed under the user sub-directory: `.config/joplin-desktop/database.sqlite`.
-
+The standard Joplin database file in Ubuntu is placed under the user sub-directory: `.config/joplin-desktop/database.sqlite` or `snap/joplin-desktop/current/.config/joplin-desktop`.
 ### Recommendation
 Create a `.env` file and place the env vars there.
 Example:
