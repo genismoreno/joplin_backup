@@ -26,6 +26,8 @@ Create a `run_backup.sh` file as follows:
 ```
 #!/usr/bin/env bash
 
+cd $(dirname "${BASH_SOURCE[0]}")  # If called from non-root folder
+
 set -a
 source .env
 set +a
